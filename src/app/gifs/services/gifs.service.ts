@@ -7,7 +7,7 @@ const GIPHY_API_KEY = 'pr5byJ8kngCdLrWAGvJknr23RRIG45HM';
 @Injectable({ providedIn: 'root' })
 export class GifsService {
   public gifList: Gif[] = [];
-  private _tagsHistory: string[] = [];
+  private _tagsHistory: string[] = ['coding','mario'];
   private apiKey: string = 'pr5byJ8kngCdLrWAGvJknr23RRIG45HM';
   private serviceUrl: string = 'https://api.giphy.com/v1/gifs';
 
