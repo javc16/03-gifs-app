@@ -20,8 +20,8 @@ export class GifsService {
   private organizeHistory(tag: string) {
     tag = tag.toLowerCase();
 
-    if (this._tagsHistory.includes(tag)) {
-      this._tagsHistory.filter((oldTag) => oldTag !== tag);
+    if (this.tagsHistory.includes(tag)) {
+      this._tagsHistory = this._tagsHistory.filter((oldTag) => oldTag !== tag);
     }
 
     this._tagsHistory.unshift(tag);
