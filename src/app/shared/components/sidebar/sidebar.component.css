@@ -1,15 +1,10 @@
-#sidebar
-{
-  height:100vh;
-  width:20vw;
+#sidebar {
+  height: 98.7vh;
+  width: 18vw;
 }
 
-
-
-
-@media only screen and (max-width: 600px){
-  #sidebar
-{
-  display: none;
-}
+@media only screen and (max-width: 600px) {
+  #sidebar {
+    display: none;
+  }
 }
